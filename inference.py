@@ -34,3 +34,18 @@ if __name__ == "__main__":
     image = image.resize((width, height))
     image = transform(image)
     image = image.unsqueeze(0)
+
+    if torch.cuda.is_available():
+        image = image.cuda()
+        model.cuda()
+
+    _, output = model(image)
+    output = output[0].cpu().detach().numpy()
+    output = np.argmax(output, axis = 0)
+
+    palette = []
+    for color in COLORS:
+        palette += color
+    zero_pad = 256*3 - len(palette)
+    for i in range(zero_pad):
+        palette.append(0)
