@@ -49,3 +49,15 @@ if __name__ == "__main__":
     zero_pad = 256*3 - len(palette)
     for i in range(zero_pad):
         palette.append(0)
+
+    mask = Image.fromarray(output.astype(np.uint8)).convert('P')
+    mask.putpalette(palette)
+    mask = np.asarray(mask.convert("RGB"))
+
+    image = Image.open(args.input_path)
+    image = image.convert("RGB")
+    image = image.resize((width, height))
+    image = np.asarray(image)
+
+    image = image * args.alpha + mask * (1 - args.alpha)
+    image = image.astype(np.uint8)
