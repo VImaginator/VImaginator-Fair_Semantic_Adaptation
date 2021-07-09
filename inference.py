@@ -61,3 +61,7 @@ if __name__ == "__main__":
 
     image = image * args.alpha + mask * (1 - args.alpha)
     image = image.astype(np.uint8)
+    image = Image.fromarray(image).convert("RGB")
+    image.save(args.output_path)
+
+
