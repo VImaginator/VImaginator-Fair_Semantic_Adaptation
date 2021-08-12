@@ -2,4 +2,4 @@
 https://raw.githubusercontent.com/yzou2/CRST/fce34003dd29c5f12f39d1c228dacd6277a064ae/deeplab/model.py
 """
 
-imp
+import torch
