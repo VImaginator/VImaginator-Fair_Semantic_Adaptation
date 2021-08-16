@@ -9,4 +9,6 @@ import torch.nn.functional as F
 from torchvision import models
 affine_par = True
 
-__all__ = ['Res_D
+__all__ = ['Res_Deeplab']
+
+Batc
