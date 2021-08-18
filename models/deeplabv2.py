@@ -11,4 +11,4 @@ affine_par = True
 
 __all__ = ['Res_Deeplab']
 
-BatchNorm = nn.Batch
+BatchNorm = nn.BatchNorm2d 
