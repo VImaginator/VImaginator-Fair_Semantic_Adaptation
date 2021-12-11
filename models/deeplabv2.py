@@ -26,4 +26,4 @@ class BasicBlock(nn.Module):
         self.conv1 = conv3x3(inplanes, planes, stride)
         self.bn1 = BatchNorm(planes, affine = affine_par)
         self.relu = nn.ReLU(inplace=True)
-     
+        self.conv2 
