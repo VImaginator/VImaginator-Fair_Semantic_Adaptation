@@ -31,4 +31,4 @@ class BasicBlock(nn.Module):
         self.downsample = downsample
         self.stride = stride
 
-    de
+    def forward(self, x)
