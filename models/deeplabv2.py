@@ -29,4 +29,6 @@ class BasicBlock(nn.Module):
         self.conv2 = conv3x3(planes, planes)
         self.bn2 = BatchNorm(planes, affine = affine_par)
         self.downsample = downsample
-        self.stride = 
+        self.stride = stride
+
+    de
