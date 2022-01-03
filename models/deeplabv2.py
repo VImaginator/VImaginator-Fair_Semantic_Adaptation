@@ -32,4 +32,6 @@ class BasicBlock(nn.Module):
         self.stride = stride
 
     def forward(self, x):
-        residu
+        residual = x
+
+  
