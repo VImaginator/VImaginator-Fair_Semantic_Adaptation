@@ -35,4 +35,5 @@ class BasicBlock(nn.Module):
         residual = x
 
         out = self.conv1(x)
-        out = 
+        out = self.bn1(out)
+ 
