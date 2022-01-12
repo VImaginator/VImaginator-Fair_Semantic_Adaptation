@@ -39,4 +39,4 @@ class BasicBlock(nn.Module):
         out = self.relu(out)
 
         out = self.conv2(out)
- 
+        out = sel
