@@ -45,4 +45,6 @@ class BasicBlock(nn.Module):
             residual = self.downsample(x)
 
         out += residual
-        out = self.r
+        out = self.relu(out)
+
+     
