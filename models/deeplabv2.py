@@ -54,4 +54,4 @@ class Bottleneck(nn.Module):
     expansion = 4
 
     def __init__(self, inplanes, planes, stride=1, dilation=1, downsample=None):
-        super(Bottleneck
+        super(Bottleneck, self).__ini
