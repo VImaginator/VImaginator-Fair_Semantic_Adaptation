@@ -55,4 +55,5 @@ class Bottleneck(nn.Module):
 
     def __init__(self, inplanes, planes, stride=1, dilation=1, downsample=None):
         super(Bottleneck, self).__init__()
-        self.conv1 = nn.Conv2d(inplanes, planes, kernel_size=1, stride=stride, bias=False
+        self.conv1 = nn.Conv2d(inplanes, planes, kernel_size=1, stride=stride, bias=False) # change
+    
