@@ -57,4 +57,5 @@ class Bottleneck(nn.Module):
         super(Bottleneck, self).__init__()
         self.conv1 = nn.Conv2d(inplanes, planes, kernel_size=1, stride=stride, bias=False) # change
         self.bn1 = BatchNorm(planes,affine = affine_par)
-        #for i in self.bn1.parameter
+        #for i in self.bn1.parameters():
+   
