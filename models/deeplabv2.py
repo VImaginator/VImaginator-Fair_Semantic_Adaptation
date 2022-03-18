@@ -61,4 +61,4 @@ class Bottleneck(nn.Module):
         #    i.requires_grad = False
 
         padding = dilation
-        self.c
+        self.conv2 = nn.Conv
