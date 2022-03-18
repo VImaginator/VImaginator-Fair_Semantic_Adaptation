@@ -60,4 +60,5 @@ class Bottleneck(nn.Module):
         #for i in self.bn1.parameters():
         #    i.requires_grad = False
 
-        padding = d
+        padding = dilation
+     
