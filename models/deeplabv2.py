@@ -62,4 +62,4 @@ class Bottleneck(nn.Module):
 
         padding = dilation
         self.conv2 = nn.Conv2d(planes, planes, kernel_size=3, stride=1, # change
-                               padding=padding, bias=False, dilatio
+                               padding=padding, bias=False, dilation = dilatio
