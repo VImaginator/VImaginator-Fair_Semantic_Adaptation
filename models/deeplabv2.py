@@ -65,4 +65,4 @@ class Bottleneck(nn.Module):
                                padding=padding, bias=False, dilation = dilation)
         self.bn2 = BatchNorm(planes,affine = affine_par)
         #for i in self.bn2.parameters():
-        #    i.req
+        #    i.requires_grad =
