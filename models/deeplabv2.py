@@ -66,4 +66,4 @@ class Bottleneck(nn.Module):
         self.bn2 = BatchNorm(planes,affine = affine_par)
         #for i in self.bn2.parameters():
         #    i.requires_grad = False
-        s
+        self.conv3 = nn.Con
