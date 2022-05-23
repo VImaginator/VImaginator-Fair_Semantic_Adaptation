@@ -70,4 +70,4 @@ class Bottleneck(nn.Module):
         self.bn3 = BatchNorm(planes * 4, affine = affine_par)
         #for i in self.bn3.parameters():
         #    i.requires_grad = False
-        self.relu = nn.ReLU(i
+        self.relu = nn.ReLU(inplace=True)
