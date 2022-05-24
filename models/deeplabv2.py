@@ -72,4 +72,4 @@ class Bottleneck(nn.Module):
         #    i.requires_grad = False
         self.relu = nn.ReLU(inplace=True)
         self.downsample = downsample
-       
+        self.stride = s
