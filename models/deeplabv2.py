@@ -75,4 +75,5 @@ class Bottleneck(nn.Module):
         self.stride = stride
 
 
-    def forwar
+    def forward(self, x):
+       
