@@ -76,4 +76,6 @@ class Bottleneck(nn.Module):
 
 
     def forward(self, x):
-        residual = 
+        residual = x
+
+        
