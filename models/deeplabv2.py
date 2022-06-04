@@ -79,4 +79,5 @@ class Bottleneck(nn.Module):
         residual = x
 
         out = self.conv1(x)
-        out = self.
+        out = self.bn1(out)
+    
