@@ -80,4 +80,4 @@ class Bottleneck(nn.Module):
 
         out = self.conv1(x)
         out = self.bn1(out)
-    
+        out = self
