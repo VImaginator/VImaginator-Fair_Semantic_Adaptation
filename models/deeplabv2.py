@@ -86,4 +86,5 @@ class Bottleneck(nn.Module):
         out = self.bn2(out)
         out = self.relu(out)
 
-        out = sel
+        out = self.conv3(out)
+ 
