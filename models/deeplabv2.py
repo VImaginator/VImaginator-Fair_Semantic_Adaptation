@@ -89,4 +89,5 @@ class Bottleneck(nn.Module):
         out = self.conv3(out)
         out = self.bn3(out)
 
-        if self.downsample is not Non
+        if self.downsample is not None:
+            resid
