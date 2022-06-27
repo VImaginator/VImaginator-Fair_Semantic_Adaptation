@@ -90,4 +90,6 @@ class Bottleneck(nn.Module):
         out = self.bn3(out)
 
         if self.downsample is not None:
-            residual = self.downsam
+            residual = self.downsample(x)
+
+        out
