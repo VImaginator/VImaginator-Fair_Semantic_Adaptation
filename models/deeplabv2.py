@@ -97,4 +97,4 @@ class Bottleneck(nn.Module):
 
         return out
 
-class Classifier_Modu
+class Classifier_Module(nn.Module):
