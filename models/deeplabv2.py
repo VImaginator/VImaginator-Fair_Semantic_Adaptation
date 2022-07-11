@@ -99,4 +99,4 @@ class Bottleneck(nn.Module):
 
 class Classifier_Module(nn.Module):
 
-    def __init__(self, fan_in, dilation
+    def __init__(self, fan_in, dilation_series, pad
