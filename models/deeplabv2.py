@@ -101,4 +101,4 @@ class Classifier_Module(nn.Module):
 
     def __init__(self, fan_in, dilation_series, padding_series, num_classes):
         super(Classifier_Module, self).__init__()
-        self.conv2d_
+        self.conv2d_list = nn.ModuleL
