@@ -102,4 +102,4 @@ class Classifier_Module(nn.Module):
     def __init__(self, fan_in, dilation_series, padding_series, num_classes):
         super(Classifier_Module, self).__init__()
         self.conv2d_list = nn.ModuleList()
-        for dilation, padding in zip(dilation_serie
+        for dilation, padding in zip(dilation_series, padding_series
