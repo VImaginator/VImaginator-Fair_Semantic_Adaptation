@@ -105,4 +105,5 @@ class Classifier_Module(nn.Module):
         for dilation, padding in zip(dilation_series, padding_series):
             self.conv2d_list.append(nn.Conv2d(fan_in, num_classes, kernel_size=3, stride=1, padding=padding, dilation=dilation, bias = True))
 
-        for m in sel
+        for m in self.conv2d_list:
+     
