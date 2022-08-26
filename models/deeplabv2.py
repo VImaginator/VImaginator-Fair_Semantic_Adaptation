@@ -106,4 +106,4 @@ class Classifier_Module(nn.Module):
             self.conv2d_list.append(nn.Conv2d(fan_in, num_classes, kernel_size=3, stride=1, padding=padding, dilation=dilation, bias = True))
 
         for m in self.conv2d_list:
-            m.we
+            m.weight.data.norm
