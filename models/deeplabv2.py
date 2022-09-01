@@ -109,4 +109,4 @@ class Classifier_Module(nn.Module):
             m.weight.data.normal_(0, 0.01)
 
     def forward(self, x):
-        o
+        out = self.con
