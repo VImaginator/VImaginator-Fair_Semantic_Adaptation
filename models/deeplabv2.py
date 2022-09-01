@@ -108,4 +108,5 @@ class Classifier_Module(nn.Module):
         for m in self.conv2d_list:
             m.weight.data.normal_(0, 0.01)
 
-    def forward(self, x
+    def forward(self, x):
+        o
