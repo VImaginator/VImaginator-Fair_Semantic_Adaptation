@@ -110,4 +110,4 @@ class Classifier_Module(nn.Module):
 
     def forward(self, x):
         out = self.conv2d_list[0](x)
-        for i in r
+        for i in range(len(sel
