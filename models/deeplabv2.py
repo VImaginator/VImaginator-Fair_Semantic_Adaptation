@@ -114,4 +114,4 @@ class Classifier_Module(nn.Module):
             out += self.conv2d_list[i+1](x)
         return out
 
-c
+class ResNe
