@@ -115,4 +115,4 @@ class Classifier_Module(nn.Module):
         return out
 
 class ResNet(nn.Module):
-    def __init__(
+    def __init__(self, 
