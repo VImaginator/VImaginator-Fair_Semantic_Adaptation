@@ -116,4 +116,5 @@ class Classifier_Module(nn.Module):
 
 class ResNet(nn.Module):
     def __init__(self, block, layers, num_classes):
-        self.
+        self.inplanes = 64
+  
