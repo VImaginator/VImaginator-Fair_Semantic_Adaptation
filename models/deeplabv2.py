@@ -118,4 +118,4 @@ class ResNet(nn.Module):
     def __init__(self, block, layers, num_classes):
         self.inplanes = 64
         super(ResNet, self).__init__()
-        self.conv1 = nn.
+        self.conv1 = nn.Conv2d(3, 64, kern
