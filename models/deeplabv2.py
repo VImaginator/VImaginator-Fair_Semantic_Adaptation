@@ -122,4 +122,4 @@ class ResNet(nn.Module):
                                bias=False)
         self.bn1 = BatchNorm(64, affine = affine_par)
         self.relu = nn.ReLU(inplace=True)
- 
+        self.maxp
