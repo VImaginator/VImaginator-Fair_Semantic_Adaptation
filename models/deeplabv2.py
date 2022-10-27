@@ -126,4 +126,4 @@ class ResNet(nn.Module):
 
         self.layer1 = self._make_layer(block, 64, layers[0])
         self.layer2 = self._make_layer(block, 128, layers[1], stride=2)
-        sel
+        self.layer3 = self._
