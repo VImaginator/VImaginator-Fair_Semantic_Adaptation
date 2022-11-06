@@ -131,4 +131,4 @@ class ResNet(nn.Module):
 
         self.layer5 = Classifier_Module(2048, [6,12,18,24], [6,12,18,24], num_classes)
 
-        for m i
+        for m in self.mod
