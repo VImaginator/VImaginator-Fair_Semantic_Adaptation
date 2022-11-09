@@ -132,4 +132,4 @@ class ResNet(nn.Module):
         self.layer5 = Classifier_Module(2048, [6,12,18,24], [6,12,18,24], num_classes)
 
         for m in self.modules():
-            if isins
+            if isinstance(m, nn
