@@ -133,4 +133,4 @@ class ResNet(nn.Module):
 
         for m in self.modules():
             if isinstance(m, nn.Conv2d):
-                n = m.kernel_size[0
+                n = m.kernel_size[0] * m.kernel_size
