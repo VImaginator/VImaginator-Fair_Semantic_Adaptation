@@ -136,4 +136,5 @@ class ResNet(nn.Module):
                 n = m.kernel_size[0] * m.kernel_size[1] * m.out_channels
                 m.weight.data.normal_(0, 0.01)
             elif isinstance(m, BatchNorm):
-                m.weight.data.fill_
+                m.weight.data.fill_(1)
+              
