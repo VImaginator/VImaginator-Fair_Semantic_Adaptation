@@ -137,4 +137,6 @@ class ResNet(nn.Module):
                 m.weight.data.normal_(0, 0.01)
             elif isinstance(m, BatchNorm):
                 m.weight.data.fill_(1)
-                m.bias.data.zero_(
+                m.bias.data.zero_()
+
+    def _m
