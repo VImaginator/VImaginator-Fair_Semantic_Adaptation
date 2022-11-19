@@ -139,4 +139,4 @@ class ResNet(nn.Module):
                 m.weight.data.fill_(1)
                 m.bias.data.zero_()
 
-    def _make_layer(sel
+    def _make_layer(self, block, pla
