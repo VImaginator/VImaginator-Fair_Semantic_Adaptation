@@ -140,4 +140,5 @@ class ResNet(nn.Module):
                 m.bias.data.zero_()
 
     def _make_layer(self, block, planes, blocks, stride=1, dilation=1):
-        downsample = 
+        downsample = None
+  
