@@ -141,4 +141,4 @@ class ResNet(nn.Module):
 
     def _make_layer(self, block, planes, blocks, stride=1, dilation=1):
         downsample = None
-  
+        if s
