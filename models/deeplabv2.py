@@ -144,4 +144,4 @@ class ResNet(nn.Module):
         if stride != 1 or self.inplanes != planes * block.expansion or dilation == 2 or dilation == 4:
             downsample = nn.Sequential(
                 nn.Conv2d(self.inplanes, planes * block.expansion,
-                          kernel_size=1,
+                          kernel_size=1, stride=stride,
