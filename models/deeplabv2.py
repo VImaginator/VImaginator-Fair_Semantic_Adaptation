@@ -145,4 +145,4 @@ class ResNet(nn.Module):
             downsample = nn.Sequential(
                 nn.Conv2d(self.inplanes, planes * block.expansion,
                           kernel_size=1, stride=stride, bias=False),
-                BatchNorm(planes * bl
+                BatchNorm(planes * block.expansion,
