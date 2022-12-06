@@ -147,4 +147,4 @@ class ResNet(nn.Module):
                           kernel_size=1, stride=stride, bias=False),
                 BatchNorm(planes * block.expansion,affine = affine_par))
         #for i in downsample._modules['1'].parameters():
-        #    i.requires
+        #    i.requires_grad = Fa
