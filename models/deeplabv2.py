@@ -146,4 +146,5 @@ class ResNet(nn.Module):
                 nn.Conv2d(self.inplanes, planes * block.expansion,
                           kernel_size=1, stride=stride, bias=False),
                 BatchNorm(planes * block.expansion,affine = affine_par))
-        #for i in downsample._modules['1'].parameter
+        #for i in downsample._modules['1'].parameters():
+     
