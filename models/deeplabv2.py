@@ -148,4 +148,5 @@ class ResNet(nn.Module):
                 BatchNorm(planes * block.expansion,affine = affine_par))
         #for i in downsample._modules['1'].parameters():
         #    i.requires_grad = False
-        l
+        layers = []
+   
