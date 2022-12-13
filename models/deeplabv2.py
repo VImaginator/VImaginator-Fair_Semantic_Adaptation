@@ -150,4 +150,5 @@ class ResNet(nn.Module):
         #    i.requires_grad = False
         layers = []
         layers.append(block(self.inplanes, planes, stride,dilation=dilation, downsample=downsample))
-        self.inplanes = planes * block.ex
+        self.inplanes = planes * block.expansion
+        
