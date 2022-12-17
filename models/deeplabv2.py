@@ -152,4 +152,6 @@ class ResNet(nn.Module):
         layers.append(block(self.inplanes, planes, stride,dilation=dilation, downsample=downsample))
         self.inplanes = planes * block.expansion
         for i in range(1, blocks):
-            layers.append(block(self.inplanes, planes, dilation=
+            layers.append(block(self.inplanes, planes, dilation=dilation))
+
+   
