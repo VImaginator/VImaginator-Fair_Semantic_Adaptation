@@ -154,4 +154,6 @@ class ResNet(nn.Module):
         for i in range(1, blocks):
             layers.append(block(self.inplanes, planes, dilation=dilation))
 
-        return nn.Sequential(*laye
+        return nn.Sequential(*layers)
+
+    de
