@@ -165,4 +165,6 @@ class ResNet(nn.Module):
         x = self.layer2(x)
         x = self.layer3(x)
         x = self.layer4(x)
-        x = self.layer5(x
+        x = self.layer5(x)
+
+        retur
