@@ -167,4 +167,6 @@ class ResNet(nn.Module):
         x = self.layer4(x)
         x = self.layer5(x)
 
-        retur
+        return x
+
+class DeepLab
