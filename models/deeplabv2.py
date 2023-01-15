@@ -169,4 +169,4 @@ class ResNet(nn.Module):
 
         return x
 
-class DeepLabV2_ResNet101(n
+class DeepLabV2_ResNet101(nn.Module):
