@@ -172,4 +172,5 @@ class ResNet(nn.Module):
 class DeepLabV2_ResNet101(nn.Module):
 
     def __init__(self, num_classes=20, \
-                    pretrained=None, fre
+                    pretrained=None, freeze_bn=False):
+ 
