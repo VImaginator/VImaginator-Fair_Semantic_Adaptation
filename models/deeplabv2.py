@@ -175,4 +175,4 @@ class DeepLabV2_ResNet101(nn.Module):
                     pretrained=None, freeze_bn=False):
         super().__init__()
 
-        self.model
+        self.model = ResNet(Bo
