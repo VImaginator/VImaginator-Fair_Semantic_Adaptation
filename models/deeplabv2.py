@@ -175,4 +175,6 @@ class DeepLabV2_ResNet101(nn.Module):
                     pretrained=None, freeze_bn=False):
         super().__init__()
 
-        self.model = ResNet(Bottleneck, [3, 4, 23, 3], num
+        self.model = ResNet(Bottleneck, [3, 4, 23, 3], num_classes)
+
+       
