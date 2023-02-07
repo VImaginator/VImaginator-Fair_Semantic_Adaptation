@@ -178,4 +178,6 @@ class DeepLabV2_ResNet101(nn.Module):
         self.model = ResNet(Bottleneck, [3, 4, 23, 3], num_classes)
 
         # converting to SyncBatchNorm
-        #self.model = torch.nn.SyncBatchNorm.convert_sync_b
+        #self.model = torch.nn.SyncBatchNorm.convert_sync_batchnorm(self.model)
+
+  
