@@ -180,4 +180,4 @@ class DeepLabV2_ResNet101(nn.Module):
         # converting to SyncBatchNorm
         #self.model = torch.nn.SyncBatchNorm.convert_sync_batchnorm(self.model)
 
-  
+    def _init_weigh
