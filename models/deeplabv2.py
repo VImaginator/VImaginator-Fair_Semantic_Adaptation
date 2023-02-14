@@ -181,4 +181,4 @@ class DeepLabV2_ResNet101(nn.Module):
         #self.model = torch.nn.SyncBatchNorm.convert_sync_batchnorm(self.model)
 
     def _init_weights(self, path_to_weights):
-        print("Lo
+        print("Loading weights from: 
