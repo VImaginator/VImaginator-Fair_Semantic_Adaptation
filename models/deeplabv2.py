@@ -183,4 +183,4 @@ class DeepLabV2_ResNet101(nn.Module):
     def _init_weights(self, path_to_weights):
         print("Loading weights from: ", path_to_weights)
         weights_dict = torch.load(path_to_weights)
-        self.model.load_state_dict(weights_di
+        self.model.load_state_dict(weights_dict, strict=Fals
