@@ -185,4 +185,5 @@ class DeepLabV2_ResNet101(nn.Module):
         weights_dict = torch.load(path_to_weights)
         self.model.load_state_dict(weights_dict, strict=False)
 
-    def lr_mult(self)
+    def lr_mult(self):
+        """
