@@ -186,4 +186,4 @@ class DeepLabV2_ResNet101(nn.Module):
         self.model.load_state_dict(weights_dict, strict=False)
 
     def lr_mult(self):
-        """
+        """Learning rate m
