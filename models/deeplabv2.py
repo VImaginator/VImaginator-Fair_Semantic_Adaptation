@@ -188,4 +188,4 @@ class DeepLabV2_ResNet101(nn.Module):
     def lr_mult(self):
         """Learning rate multiplier for weights.
         Returns: [old, new]"""
-      
+        return 1., 10.
