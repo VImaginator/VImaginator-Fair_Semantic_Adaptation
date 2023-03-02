@@ -189,3 +189,5 @@ class DeepLabV2_ResNet101(nn.Module):
         """Learning rate multiplier for weights.
         Returns: [old, new]"""
         return 1., 10.
+
+    def lr_m
