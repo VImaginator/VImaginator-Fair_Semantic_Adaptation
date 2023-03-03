@@ -190,4 +190,4 @@ class DeepLabV2_ResNet101(nn.Module):
         Returns: [old, new]"""
         return 1., 10.
 
-    def lr_m
+    def lr_mult_bias(self):
