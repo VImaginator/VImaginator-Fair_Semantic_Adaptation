@@ -192,4 +192,4 @@ class DeepLabV2_ResNet101(nn.Module):
 
     def lr_mult_bias(self):
         """Learning rate multiplier for bias.
-        R
+        Returns: [old, 
