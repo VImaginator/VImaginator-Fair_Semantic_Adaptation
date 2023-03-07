@@ -194,3 +194,5 @@ class DeepLabV2_ResNet101(nn.Module):
         """Learning rate multiplier for bias.
         Returns: [old, new]"""
         return 2., 20.
+
+    def fo
