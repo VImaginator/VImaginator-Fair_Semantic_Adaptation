@@ -195,4 +195,5 @@ class DeepLabV2_ResNet101(nn.Module):
         Returns: [old, new]"""
         return 2., 20.
 
-    def forward(self, i
+    def forward(self, im):
+        or
