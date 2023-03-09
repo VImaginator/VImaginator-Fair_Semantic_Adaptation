@@ -196,4 +196,4 @@ class DeepLabV2_ResNet101(nn.Module):
         return 2., 20.
 
     def forward(self, im):
-        or
+        orig_size = im.
