@@ -198,4 +198,4 @@ class DeepLabV2_ResNet101(nn.Module):
     def forward(self, im):
         orig_size = im.size()[-2:]
 
-    
+        logits = s
