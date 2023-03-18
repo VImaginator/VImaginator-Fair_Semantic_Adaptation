@@ -199,3 +199,4 @@ class DeepLabV2_ResNet101(nn.Module):
         orig_size = im.size()[-2:]
 
         logits = self.model(im)
+        logi
