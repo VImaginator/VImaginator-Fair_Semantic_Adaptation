@@ -199,4 +199,6 @@ class DeepLabV2_ResNet101(nn.Module):
         orig_size = im.size()[-2:]
 
         logits = self.model(im)
-        logits_up = F.interpolate(logits, orig_size, mode="bilinear", align
+        logits_up = F.interpolate(logits, orig_size, mode="bilinear", align_corners=True)
+
+ 
