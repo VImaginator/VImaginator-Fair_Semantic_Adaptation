@@ -201,4 +201,6 @@ class DeepLabV2_ResNet101(nn.Module):
         logits = self.model(im)
         logits_up = F.interpolate(logits, orig_size, mode="bilinear", align_corners=True)
 
-        return logits, logi
+        return logits, logits_up
+
+if __name
