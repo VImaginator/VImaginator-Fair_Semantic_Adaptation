@@ -203,4 +203,4 @@ class DeepLabV2_ResNet101(nn.Module):
 
         return logits, logits_up
 
-if __name
+if __name__ == "__mai
