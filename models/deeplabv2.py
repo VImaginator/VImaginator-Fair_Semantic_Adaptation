@@ -205,4 +205,4 @@ class DeepLabV2_ResNet101(nn.Module):
 
 if __name__ == "__main__":
 
-    model =
+    model = DeepLabV2_Res
