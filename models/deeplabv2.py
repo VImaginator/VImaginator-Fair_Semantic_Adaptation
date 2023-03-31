@@ -203,4 +203,6 @@ class DeepLabV2_ResNet101(nn.Module):
 
         return logits, logits_up
 
-if __name__ == "__mai
+if __name__ == "__main__":
+
+    model =
