@@ -205,4 +205,6 @@ class DeepLabV2_ResNet101(nn.Module):
 
 if __name__ == "__main__":
 
-    model = DeepLabV2_ResNet101(19).cu
+    model = DeepLabV2_ResNet101(19).cuda()
+    print(model)
+
