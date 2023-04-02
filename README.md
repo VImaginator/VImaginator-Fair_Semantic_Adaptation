@@ -30,3 +30,21 @@ python inference.py --checkpoint [path to checkpoint] --input_path [path to inpu
 ```
 
 ## Training
+The training code will be available soon.
+
+## Acknowledgment
+
+Our work is supported by NSF Data Science, Data Analytics that are Robust and Trusted (DART), NSF WVAR-CRESH, and Googler Initiated Research Grant.
+We also thank the Arkansas High Performance Computing Center for providing GPUs.
+
+## Citation
+
+If you find this code useful for your research, please consider citing:
+```
+@inproceedings{truong2023fredom,
+  title={FREDOM: Fairness Domain Adaptation Approach to Semantic Scene Understanding},
+  author={VImaginator and Collaborators},
+  booktitle={IEEE/CVF Computer Vision and Pattern Recognition (CVPR)},
+  year={2023}
+}
+```
