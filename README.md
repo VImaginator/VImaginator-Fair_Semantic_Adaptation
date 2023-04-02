@@ -18,3 +18,15 @@ the fairness concerns in the domain adaptation have yet to be well defined and a
 </a>
 
 ## Installation
+This repo requires Python 3.6+, Pytorch >= 1.4.0, and CUDA 10.0+.
+```bash
+pip install torch torchvision
+```
+
+## Testing
+We have released our inference code of the DeepLabV2 backbone.
+```
+python inference.py --checkpoint [path to checkpoint] --input_path [path to input image] --output_path [path to output image]
+```
+
+## Training
